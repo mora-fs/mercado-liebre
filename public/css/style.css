@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+header{
+    background-color: #EAC926;
+}
+#logo{
+    text-align: left;
+    width: 50%;
+}
+#cuotas{
+    text-align: center;
+}
+.burger-menu{
+    color: white;
+    background-color: #03264C;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+    height: 20px;
+}
+h2{
+    font-size: 24px;
+}
+.price{
+    font-size: 18px;
+}
+.discount, .describe{
+    font-size: 16px;
+}
+footer{
+    text-align: center;
+}
+#card, #gift, #shield{
+    color: #03264C;
+}
