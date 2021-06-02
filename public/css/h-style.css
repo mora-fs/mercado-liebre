@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+}
+.main-header{
+    background-color: #EAC926;
+    padding: 20px;
+}
+.logo{
+    width: 100px;
+}
+.cuotas{
+    font-weight: 400;
+    text-align: center;
+}
+.hamb-button{
+    color: white;
+    background-color: #03264C;
+    display: block;
+    margin: auto;
+    width: 50px;
+    padding: 15px 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.main-navbar{
+    display: none;
+}
+.main-navbar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 17px;
+}
+@media (min-width: 768px){
+    .main-header-topbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cuotas{
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamb-button{
+        display: none;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0px 8px;
+    }
+}
+@media (min-width: 1200px){
+    .logo{
+        width: 250px;
+    }
+    .main-header-topbar, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-header-topbar{
+        align-items: center;
+    }
+    .main-navbar{
+        margin-top: 25px;
+    }
+    .main-navbar li{
+        margin: 10px;
+    }
+    .main-navbar a{
+        font-size: 19px;
+    }
+    .cuotas{
+        max-width: none;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+    }
+}
