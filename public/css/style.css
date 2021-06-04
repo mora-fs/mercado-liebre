@@ -35,7 +35,7 @@ ul a{
     text-align: center;
     height: 20px;
 }
-#banner img{
+.banner img{
     margin: 0;
     width: 100%;
 }
@@ -80,13 +80,13 @@ footer{
 }
 @media (min-width: 361px){
     header ul{
-        display: block;
+        display: block
     }
     .describe{
-        display: block;
+        display: block
     }
     article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        box-shadow: 0px 0px 10px rgb(100, 100, 100)
     }
 }
 @media (min-width: 769px){
