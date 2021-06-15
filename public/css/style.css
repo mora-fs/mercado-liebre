@@ -21,14 +21,15 @@ header{
     width: 50%;
 }
 .barra-busqueda{
-    width: 50%;
-    margin: 15px;
-    padding: 5px;
+    width: 40%;
+    margin: auto 20px;
+}
+#buscador{
+    padding: 8px;
+    color: #222222;
     border: #222222 solid 1px;
     border-radius: 10px;
-    color: #222222;
-    text-align: center;
-    justify-content: center;
+    width: 100%;
 }
 .cuotas{
     font-weight: 400;
