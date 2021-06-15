@@ -7,7 +7,7 @@ const pathPublic= path.resolve (__dirname, './public');
 app.use(express.static(pathPublic));
 
 app.listen(3000, ()=>{
-    console.log('Funciona');
+    console.log('Funcionando');
 });
 
 app.get('/', (req, res)=>{
