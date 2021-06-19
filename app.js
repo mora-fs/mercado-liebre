@@ -6,8 +6,8 @@ const pathPublic= path.resolve (__dirname, './public');
 
 app.use(express.static(pathPublic));
 
-app.listen(process.env.PORT || 3000, ()=>{
-    console.log('Funcionando');
+app.listen(process.env.PORT || 3100, ()=>{
+    console.log('Funcionando en puerto 3100');
 });
 
 app.get('/', (req, res)=>{

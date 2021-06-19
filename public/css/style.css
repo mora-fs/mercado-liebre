@@ -74,7 +74,8 @@ header{
     font-size: 17px;
 }
 .banner img{
-    width: 100vw;
+    width: 100%;
+    margin-bottom: 20px;
 }
 main{
     margin: auto;
@@ -305,13 +306,17 @@ button:hover{
     }
     .container1 article, .container2 article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 50%;
-        margin: 0;
+        width: 40%;
+        margin: 10px;
     }
     /*categorías*/
     .categoria{
         width: 33%;
         flex-direction: row;
+    }
+    .anuncio-reg{
+        width: 60vw;
+        margin: auto;
     }
 }
 @media (min-width: 1200px){
@@ -341,9 +346,8 @@ button:hover{
         margin: 0;
     }
     .container1 article, .container2 article{
-        width: 25%;
-        margin-right: 0;
-        margin-left: 0;
+        width: 20%;
+        margin: 5px;
     }
     /*categorías*/
     .categoria{
