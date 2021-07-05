@@ -38,14 +38,14 @@
         </section>
     </header>
     <main class="form-main">
-        <form action="/" method="GET" class="form-register"> 
+        <form action="/" method="POST" class="form-register"> 
             <div class="campo-email" class="campo-gral">
                 <label for="email">Ingrese su correo electrónico</label>
                 <input type="email" name="email" id="email">
             </div>
             <div class="campo-nombre" class="campo-gral">
                 <label for="nombreCompleto">Ingrese su nombre completo</label>
-                <input type="text" id="nombreCompleto" name="nombreCompleto" placeholder="Ej: Jorge Pérez" minlength="3">
+                <input type="text" id="nombreCompleto" name="nombreCompleto" placeholder="Ej: Jorge Pérez" required minlength="3">
             </div>
             <div class="campo-usuario" class="campo-gral">
                 <label for="nombreUsuario">Ingrese su nombre de usuario</label>
